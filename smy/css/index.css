@@ -1,0 +1,116 @@
+/* CSS Document */
+*{margin:0; padding:0; border:0;}
+body {
+	font-size: 12px;
+	background: url(../images/bg.jpg) no-repeat top center;
+	margin: 0px;
+	padding: 0px;
+}
+#header {
+	height: 300px;
+	width: 960px;
+	background:url(../images/%E6%A0%A1%E5%9B%AD%E8%83%8C%E6%99%AF.jpg) no-repeat center;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#header h1{font-size:60px; font-weight:bolder; text-align:left; line-height:60px; padding-top:80px; text-indent:20px; color:#FFFFFF}
+#nav {
+	background-color:#003399;
+	height: 40px;
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#nav a {
+	font-size: 14px;
+	line-height: 40px;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-left: 40px;
+	 font-weight:bold;
+}
+#main {
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background:url(images/content_bg.jpg);
+}
+#left {
+	width: 650px; 
+	float:left;
+	padding-right:15px; 
+	padding-left:15px;
+}
+#right {
+	width: 250px; 
+	float:right;
+	padding-right:15px; 
+	padding-left:15px;
+}
+#main #left .left1 {
+	font-weight: bold;
+	font-size:16px;
+	width: 650px;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #006600;
+}
+#main #left .left2 {
+ width:650px;
+	font-size: 12px;
+	line-height: 25px;
+}
+#main #left .left3 {
+ width:640px; 
+ margin:10px 0;
+ padding:5px;
+	font-size: 12px;
+	line-height: 25px; border:1px dashed #999999;
+}
+#main #left .left4 {
+ width:920px; 
+ margin:10px 0;
+ padding:5px;
+	font-size: 12px;
+	line-height: 25px; border:1px dashed #999999;
+}
+#main #left .left2 img {
+	margin: 10px;
+	font-weight: bold;
+}
+#main #right .right1{
+	font-weight: bold;
+	width: 250px;
+	height:30px;
+	line-height:30px;
+	margin-top: 20px;
+	
+	font-size:14px;
+	text-align:center;
+	font-weight:bold;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #F00;
+}
+.right2{  
+	text-align:left; line-height:22px;}
+.right2 img{margin:5px 0;}	
+	
+.messageB{width:640px; padding:10px 0; overflow:hidden; text-align:left; line-height:24px;}
+.messageB ul li{line-height:24px; margin-top:16px; }
+.messageB ul li span{vertical-align:middle; padding-right:12px;}
+.messageB ul li .message_in{width:300px; height:22px; border:1px solid #999999;vertical-align:middle;line-height:22px;}
+.messageB ul li .message_te{width:400px; height:90px; border:1px solid #999999;vertical-align:middle;line-height:18px;}
+.messageB ul li .message_btn{width:64px; height:20px; line-height:20px; background:url(images/btn.gif) no-repeat; color:#FFFFFF; font-weight:bold; cursor:hand;}
+
+.foot{width:960px; margin:0 auto; line-height:24px; padding:20px 0; text-align:center; ;}
+.foot a{color:#000000;}	
